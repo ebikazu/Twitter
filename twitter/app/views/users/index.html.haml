@@ -1,6 +1,6 @@
 .col-xs-8#users-content
-  .list-group
-    .list-group-item.user-list
+  .users-wrap
+    .user-list
       %h2 ユーザー一覧
     = render partial: "users/user", collection: @users
 /         %td= link_to 'Edit', edit_user_path(user)
